@@ -1,0 +1,349 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+  background-color: #fff;
+}
+html{
+  scroll-behavior: smooth;
+}
+.ancho {
+  max-width: 1200px;
+  margin: auto;
+}
+.margen {
+  padding: 15px;
+}
+.centrar {
+  text-align: center;
+}
+.borde {
+    border: 1px #f00 solid;
+    border-radius: 10px;
+    padding: 30px 40px;
+    margin: 40px auto;
+}
+.negritas {
+  font-weight: bold;
+}
+header{
+  width: 100%;
+  background-color: #62807e;
+}
+.iconos_redes{
+  width: 40%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 100px;
+  text-align: left;
+}
+.iconos_redes img{
+  padding: 5px 30px;
+}
+.informacion{
+  width: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
+}
+.informacion p{
+  display: inline-block;
+  color: #fff;
+  padding-left: 10px;
+  padding-right: 30px;
+}
+.bajo_header{
+  
+}
+.logo_arriba{
+  display: inline-block;
+  vertical-align: middle;
+  width: 45%;
+}
+.secciones{
+  display: inline-block;
+  vertical-align: middle;
+  width: 45%;
+}
+.secciones a{
+  text-align: left;
+  text-decoration: none;
+  padding: 0 20px;
+  color: #000
+}
+.secciones a:hover{
+  color: #ffd000;
+  border-bottom: 5px #ffd000 solid;
+}
+.contenedor_principal{
+  background-image: url("images/fondo1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 533px;
+  border-bottom: 10px #ffd000 solid;
+}
+.contenido_contenedor_principal{
+  background-color: #62807e;
+  color: #fff;
+  width: 30%;
+}
+.letras_amarillas{
+  color: #ffd000
+}
+.contenedor_slides{
+  margin-bottom: 30px;
+}
+.titulo_contenedor_slides{
+  border-bottom: 1px #ccc solid;
+  margin: 20px auto;
+}
+.titulo_contenedor_slides img{
+  display: inline-block;
+  vertical-align: middle;
+}
+.titulo_contenedor_slides h2{
+  font-family: Impact;
+  font-weight: 400;
+  display: inline-block;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+.slide_1{
+  background-color: #d9d9d9;
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+  text-align: center;
+  min-height: 400px;
+}
+.slide_1 img{
+  display: inline-block;
+  vertical-align: top;
+  width: 10%;
+}
+.slide_1 p{
+  display: inline-block;
+  vertical-align: top;
+  width: 80%;
+}
+.slide_2{
+  background-color: #d9d9d9;
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+  margin: auto 55px;
+  text-align: center;
+  min-height: 400px;
+}
+.slide_2 img{
+  display: inline-block;
+  vertical-align: top;
+  width: 10%;
+}
+.slide_2 p{
+  display: inline-block;
+  vertical-align: top;
+  width: 80%;
+}
+.slide_3{
+  background-color: #d9d9d9;
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+  text-align: center;
+  min-height: 400px;
+}
+.slide_3 img{
+  display: inline-block;
+  vertical-align: top;
+  width: 10%;
+}
+.slide_3 p{
+  width: 80%;
+  display: inline-block;
+  vertical-align: top;
+}
+.contenedor_botones a{
+  color: #fdf9f0;
+  text-decoration: none;
+  padding: 20px 40px;
+  margin-right: 20px;
+}
+.contenedor_slides h3{
+  font-family: Impact;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.contenedor_slides p{
+  text-align: left;
+}
+.exitos{
+  background-image: url("images/fondo2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 533px;
+}
+.titulo_contenedor_exitos{
+  border-bottom: 2px #3d3d3d solid;
+  color: #3d3d3d;
+  margin: 20px auto;
+  padding-top: 20px;
+}
+.titulo_contenedor_exitos img{
+  display: inline-block;
+  vertical-align: middle;
+}
+.titulo_contenedor_exitos h2{
+  font-family: Impact;
+  font-weight: 400;
+  display: inline-block;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+.contenido_exitos{
+}
+.texto_exitos{
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+}
+.texto_exitos img{
+  width: 30%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.texto_exitos h2{
+  width: 60%;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: Impact;
+  font-weight: 400;
+  text-align: left;
+}
+.texto_exitos p{
+  width: 60%;
+  display: inline-block;
+  vertical-align: middle;
+  color: #ccc;
+  text-align: left;
+}
+.video_exitos{
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+}
+.titulo_contenedor_catalogo{
+  border-bottom: 2px #3d3d3d solid;
+  color: #00c2a0;
+  margin: 20px auto;
+  padding-top: 20px;
+}
+.titulo_contenedor_catalogo img{
+  display: inline-block;
+  vertical-align: middle;
+}
+.titulo_contenedor_catalogo h2{
+  font-family: Impact;
+  font-weight: 400;
+  display: inline-block;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+.titulo_contenedor_catalogo{
+  border-bottom: 2px #3d3d3d solid;
+  color: #00c2a0;
+  margin: 20px auto;
+  padding-top: 20px;
+}
+.titulo_contenedor_contactanos{
+  border-bottom: 2px #3d3d3d solid;
+  color: #00c2a0;
+  margin: 20px auto;
+  padding-top: 20px;
+}
+.titulo_contenedor_contactanos img{
+  display: inline-block;
+  vertical-align: middle;
+}
+.titulo_contenedor_contactanos h2{
+  font-family: Impact;
+  font-weight: 400;
+  display: inline-block;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+.contenido_contactanos{
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+}
+.foto_contactanos{
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+  background-image: url("images/ubicacion.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+.botones {
+  margin: 30px 0 ;
+}
+.btn_izq{
+  background-color: #00c2a0;
+}
+.logo_abajo{
+  width: 100%;
+  background-color: #25c0a0;
+}
+form {
+  border: 1px #000 solid;
+  background-color: #fff;
+  border-radius: 8px;
+}
+#nombrecompleto, #email, #unidades, #celular{
+  width: 90%;
+  height: 40px;
+  padding-left: 10px;
+}
+h3{
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.izquierda{
+  text-align: left;
+}
+.btn_rojo{
+  background-color: #00c2a0;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn_rojo:hover{
+  background-color: #cc9900;
+}
+input:focus, select:focus{
+  background-color: #f0f8ff;
+  color: black;
+  border: 1px #00f solid;
+  border-radius: 5px;
+}
+.actividades:focus, .idioma_ingles:focus{
+  outline: 3px #00f solid;
+  outline-offset: 4px;
+}
+.copyright{
+  width: 100%;
+  background-color: #62807e;
+  color: #fff;
+}
